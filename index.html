@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cartoon GIFs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Coiny|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+</head>
+
+<body>
+   
+    <div class="jumbotron">
+        <div class="container">
+            <img src="assets/images/cartoonCollage.jpg" class="img-fluid" alt="Cartoon Collage">
+            <h1>CARTOONS THAT MAKE ME LAUGH</h1>
+        </div>
+    </div>
+
+    <!-- Button -->
+        <div id="gifButtonsView" class="container"></div>
+
+
+    <div class="container"> <!-- main Container -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                        <!-- gifs -->
+            <div id="gifsView" ></div>
+        </div>
+            <br>
+
+            <!-- Add/Remove -->
+
+<div class="container">
+    <form id="gifForm" role="form">
+        <div class="form-group">
+            <input type="text" id="topicInput" placeholder="Enter a cartoon name...">
+        </div>
+        <input id="addGif" type="submit" value="Add a cartoon" class="btn btn-primary">
+        <input id="removeGif" type="submit" value="Remove a cartoon" class="btn btn-primary">
+    </form>
+</div>
+    </div>
+
+      
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
